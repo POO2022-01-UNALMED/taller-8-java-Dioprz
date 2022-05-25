@@ -12,7 +12,7 @@ public class Portero extends Futbolista{
     }
      
     public String toString(){
-        return "El futbolista " + nombre + " tiene " + edad + " y juega de " posicion " con el dorsal " + dorsal + ". Le han marcado " + goles;
+        return "El futbolista " + nombre + " tiene " + edad + " y juega de " + posicion + " con el dorsal " + dorsal + ". Le han marcado " + goles;
     }
 
     public boolean jugarConLasManos(){
