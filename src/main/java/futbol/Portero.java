@@ -19,7 +19,7 @@ public class Portero extends Futbolista{
         return true;
     }
 
-    public int compareTo(Futbolista futbolista){
+    public int compareTo(Object futbolista){
         Portero portero = (Portero) futbolista;
         return Math.abs(this.golesRecibidos - portero.golesRecibidos);
     }
