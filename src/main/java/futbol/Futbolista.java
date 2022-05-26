@@ -17,11 +17,11 @@ public abstract class Futbolista implements Comparable<Object>{
     }
 
     public String toString(){
-        return "El futbolista " + nombre + " tiene " + edad + " y juega de " + posicion;
+        return "El futbolista " + nombre + " tiene " + edad + ", y juega de " + posicion;
     }
 
     public boolean equals(Futbolista futbolista){
-        return this.equals(futbolista);
+        return this == futbolista;
     }
 
     public abstract boolean jugarConLasManos();
